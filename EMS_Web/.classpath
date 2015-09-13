@@ -12,9 +12,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EMS_COMMON_LIB"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EMS_CORE_LIB"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/EMS_Common"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/EMS_Service"/>
 	<classpathentry kind="output" path="build/classes"/>

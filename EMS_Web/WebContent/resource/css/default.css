@@ -926,10 +926,10 @@ textarea[disabled]
 }
 
 .logoheader1 {
-	background: url(../images/GP_Logo.jpg) no-repeat;
+	background: white;
 	background-size: 300px 82px;
 	width: 300px;
-	height: 82px;
+	height: 96px;
 	float: left;
 }
 

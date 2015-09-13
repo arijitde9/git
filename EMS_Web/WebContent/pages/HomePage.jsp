@@ -12,7 +12,7 @@
 		<div id="my_camera"></div>
 		
 		<!-- First, include the Webcam.js JavaScript Library -->
-		<script type="text/javascript" src="js/webcam/webcam.js"></script>
+		<script type="text/javascript" src="resource/js/webcam/webcam.js"></script>
 		
 		<!-- Configure a few settings and attach camera -->
 		<script language="JavaScript">
@@ -35,7 +35,7 @@
 			//preload shutter audio clip
 			var shutter = new Audio();
 			shutter.autoplay = false;
-			shutter.src = navigator.userAgent.match(/Firefox/) ? 'js/webcam/shutter.ogg' : 'js/webcam/shutter.mp3';
+			shutter.src = navigator.userAgent.match(/Firefox/) ? 'resource/js/webcam/shutter.ogg' : 'resource/js/webcam/shutter.mp3';
 			
 			function take_snapshot() {
 				// play sound effect
