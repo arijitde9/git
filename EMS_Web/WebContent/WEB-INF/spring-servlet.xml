@@ -16,9 +16,8 @@
 		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-2.2.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-
 	<context:annotation-config />
-	<context:component-scan base-package="com.wipro.view.web.controller" />
+	<context:component-scan base-package="com.za.ems.app" />
 	<task:annotation-driven/>
 	<mvc:interceptors>
 		<bean class="com.wipro.view.web.servlet.PostResponseInterceptor" />
@@ -42,16 +41,12 @@
         </property>
     </bean>
 	
-	
-	
 	<!-- Configure the multipart resolver -->
 
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<property name="maxUploadSize" value="2147483648" />
 	</bean>
-
-
 
 	<bean id="tilesConfigurer"
 		class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
