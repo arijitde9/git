@@ -1,7 +1,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:url var="login" value="/redirectLogin.con" />
-<form role="form" action="${login}">
+<form role="form" method="post" action="${login}">
 	<fieldset>
 		<div class="form-group">
 			<input class="form-control" placeholder="E-mail" name="email"

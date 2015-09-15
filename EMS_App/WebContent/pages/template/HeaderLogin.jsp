@@ -6,6 +6,6 @@
 			<div class="col-md-4 col-md-offset-4">
 				<div class="login-panel panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title">EMS Sign In</h3>
+						<span class="panel-title"><b>EMS Login</b></span>
 					</div>
 					<div class="panel-body">
