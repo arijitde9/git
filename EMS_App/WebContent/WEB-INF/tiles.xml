@@ -6,7 +6,7 @@
 
 	<definition name="base.definition" template="pages/template/Layout.jsp">
 		<put-attribute name="title" value="EMS" />
-		<put-attribute name="header" value="Header.jsp" /> 
+		<put-attribute name="header" type="template" value="Header.jsp" /> 
 		<put-attribute name="menu" type="template" value="Menu.jsp" />
 		<put-attribute name="submenu" type="template" value="SubMenu.jsp" />
  		<put-attribute name="body" value="" />
