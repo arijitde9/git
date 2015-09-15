@@ -5,7 +5,7 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>EMS</display-name>
 	<welcome-file-list>
-		<welcome-file>/landingHome.con</welcome-file>
+		<welcome-file>/login.con</welcome-file>
 	</welcome-file-list>
 
 	<session-config>

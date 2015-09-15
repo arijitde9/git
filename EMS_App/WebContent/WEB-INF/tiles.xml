@@ -12,10 +12,21 @@
  		<put-attribute name="body" value="" />
 		<put-attribute name="footer" type="template" value="Footer.jsp" />
 	</definition>
+	
+	<definition name="login.definition" template="pages/template/LoginLayout.jsp">
+		<put-attribute name="title" value="EMS" />
+		<put-attribute name="headerlogin" type="template" value="HeaderLogin.jsp" /> 
+   		<put-attribute name="loginbody" value="" />
+		<put-attribute name="footerlogin" type="template" value="FooterLogin.jsp" />
+	</definition>
  
 
 	<definition name="homepage" extends="base.definition">
 		<put-attribute name="body" type="template" value="../Dashboad.jsp" />
+	</definition>
+
+	<definition name="loginpage" extends="login.definition">
+		<put-attribute name="loginbody" type="template" value="../LoginPage.jsp" />
 	</definition>
 
 </tiles-definitions>  

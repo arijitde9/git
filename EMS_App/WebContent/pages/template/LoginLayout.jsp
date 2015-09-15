@@ -1,6 +1,7 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -12,26 +13,22 @@
 
 <title><tiles:insertAttribute name="title" /></title>
 
-<script src="resource/js/jquery-core/jquery-1.11.3.min.js"></script>
 <!-- Bootstrap Core CSS -->
-<link href="resource/template/bower_components/bootstrap/dist/css/bootstrap.min.css"
+<link
+	href="resource/template/bower_components/bootstrap/dist/css/bootstrap.min.css"
 	rel="stylesheet">
 
 <!-- MetisMenu CSS -->
-<link href="resource/template/bower_components/metisMenu/dist/metisMenu.min.css"
+<link
+	href="resource/template/bower_components/metisMenu/dist/metisMenu.min.css"
 	rel="stylesheet">
-
-<!-- Timeline CSS -->
-<link href="resource/template/dist/css/timeline.css" rel="stylesheet">
 
 <!-- Custom CSS -->
 <link href="resource/template/dist/css/sb-admin-2.css" rel="stylesheet">
 
-<!-- Morris Charts CSS -->
-<link href="resource/template/bower_components/morrisjs/morris.css" rel="stylesheet">
-
 <!-- Custom Fonts -->
-<link href="resource/template/bower_components/font-awesome/css/font-awesome.min.css"
+<link
+	href="resource/template/bower_components/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,18 +41,8 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<!-- Navigation -->
-		<nav class="navbar navbar-default navbar-static-top" role="navigation"
-			style="margin-bottom: 0">
-			<tiles:insertAttribute name="header" />
-			<tiles:insertAttribute name="menu" />
-			<tiles:insertAttribute name="submenu" />
-		</nav>
-		<div id="page-wrapper">
-			<tiles:insertAttribute name="body" />
-		</div>
-	</div>
-	<tiles:insertAttribute name="footer" />
+	<tiles:insertAttribute name="headerlogin" />
+	<tiles:insertAttribute name="loginbody" />
+	<tiles:insertAttribute name="footerlogin" />
 </body>
 </html>
