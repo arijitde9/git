@@ -1,15 +1,13 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 
-<div id="headpanel">
-	<table width="100%">
-		<tr>
-			<td width="30%"><a class="logoheader1"></a></td>
-			<td width="45%" style="vertical-align: bottom;"><span
-				class="dmshdr"> <span class="dmsbold">E</span>mployee <span
-					class="dmsbold">M</span>anagement <span class="dmsbold">S</span>ystem
-			</span></td>
-			<td class="logowipro"></td>
-		</tr>
-	</table>
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse"
+		data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+		<span class="icon-bar"></span> <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="">EMS</a>
 </div>
+<!-- /.navbar-header -->
