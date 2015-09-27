@@ -3,6 +3,10 @@
 	<name>EMS_App</name>
 	<comment></comment>
 	<projects>
+		<project>EMS_Common</project>
+		<project>EMS_Core</project>
+		<project>EMS_Persistance</project>
+		<project>EMS_Service</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

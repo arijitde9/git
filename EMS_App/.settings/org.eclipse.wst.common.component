@@ -2,6 +2,18 @@
     <wb-module deploy-name="EMS_App">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="EMS_Common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EMS_Common/EMS_Common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMS_Persistance.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EMS_Persistance/EMS_Persistance">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMS_Service.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EMS_Service/EMS_Service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMS_Core.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EMS_Core/EMS_Core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="EMS_App"/>
         <property name="java-output-path" value="/EMS_App/build/classes"/>
     </wb-module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EMS_Service">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="EMS_Common.jar" deploy-path="/" handle="module:/resource/EMS_Common/EMS_Common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMS_Persistance.jar" deploy-path="/" handle="module:/resource/EMS_Persistance/EMS_Persistance">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
