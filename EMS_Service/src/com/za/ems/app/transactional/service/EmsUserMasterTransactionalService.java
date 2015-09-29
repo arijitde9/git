@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.za.ems.app.hibernate.core.model.EmsUserMaster;
 import com.za.ems.app.hibernate.dao.EmsUserMasterDao;
 
-@Component("emsUserMasterTransactionalService")
+@Service("emsUserMasterTransactionalService")
 @Transactional(propagation = Propagation.REQUIRED, readOnly = true)
 public class EmsUserMasterTransactionalService {
 
